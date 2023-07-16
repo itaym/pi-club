@@ -9,7 +9,6 @@ const SingleQuestion = (
         },
     }) => {
 
-//console.log(index, checked)
     const onChange = radioIndex => () => {
         onAnswer(radioIndex)
     }
